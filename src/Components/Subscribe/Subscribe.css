@@ -1,0 +1,68 @@
+#subscribe {
+    padding: 60px;
+    background: url(https://bootstrapmade.com/demo/templates/TheEvent/assets/img/subscribe-bg.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+  }
+ 
+  #subscribe:before {
+    background: rgba(6, 12, 34, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  @media (min-width: 1024px) {
+    #subscribe {
+      background-attachment: fixed;
+    }
+  }
+  
+  #subscribe .section-header h2,
+  #subscribe p {
+    color: #fff;
+    text-align: center;
+  }
+
+  
+  #subscribe input {
+    background: #fff;
+    color: #060c22;
+    border: 0;
+    outline: none;
+    margin: 0;
+    padding: 9px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+  }
+  
+  @media (min-width: 767px) {
+    #subscribe input {
+      min-width: 400px;
+    }
+  }
+  
+  #subscribe button {
+    border: 0;
+    padding: 9px 25px;
+    cursor: pointer;
+    background: #f82249;
+    color: #fff;
+    transition: all 0.3s ease;
+    outline: none;
+    font-size: 14px;
+    border-radius: 50px;
+  }
+  
+  #subscribe button:hover {
+    background: #e0072f;
+  }
+  
+  @media (max-width: 460px) {
+    #subscribe button {
+      margin-top: 10px;
+    }
+  }

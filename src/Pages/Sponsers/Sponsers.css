@@ -1,0 +1,107 @@
+#sponsers {
+    padding: 60px 0 30px 0;
+    background-image: url('../../api/Assets/img/sponserback.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #sponsers .speaker {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  #sponsers .speaker .details {
+    background: rgba(6, 12, 34, 0.76);
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    right: 0;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  #sponsers .speaker .details h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  #sponsers .speaker .details p {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  #sponsers .speaker .details .social {
+    height: 40px;
+  }
+  
+  #sponsers .speaker .details .social i {
+    line-height: 0;
+    margin: 0 2px;
+  }
+  
+  #sponsers .speaker .details a {
+    color: #fff;
+  }
+  
+  #sponsers .speaker .details a:hover {
+    color: #f82249;
+  }
+  
+  #sponsers .speaker:hover .details {
+    bottom: 0;
+  }
+  
+  #sponsers-details {
+    padding: 60px 0;
+  }
+  
+  #sponsers-details .details h2 {
+    color: #112363;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  #sponsers-details .details .social {
+    margin-bottom: 15px;
+  }
+  
+  #sponsers-details .details .social a {
+    background: #e9edfb;
+    color: #112363;
+    line-height: 1;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #sponsers-details .details .social a:hover {
+    background: #f82249;
+    color: #fff;
+  }
+  
+  #sponsers-details .details .social a i {
+    font-size: 16px;
+    line-height: 0;
+  }
+  
+  #sponsers-details .details p {
+    color: #112363;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+ 

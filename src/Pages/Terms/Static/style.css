@@ -1,0 +1,22 @@
+.sponser-container th{
+    color: White;
+  }
+   .sponser-container th ,.sponser-container td{
+      padding: 50px;
+      border: 1px solid black !important;
+    }
+    @media (max-width: 768px) {
+     .sponser-container table {
+        width: 100%;
+      }
+  
+     .sponser-container th, td {
+        padding: 5px !important;
+        font-size: 14px;
+      }
+  
+    }
+    .sponser-container{
+      text-align: justify;
+      line-height: 2;
+    }

@@ -1,0 +1,18 @@
+
+
+ .active {
+  border-bottom: 2px solid #ff5733;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+
+  .dropdown-item:hover {
+    background-color: #ff5733; 
+    color: #fff; 
+  }
+  .dropdown-item.active, .dropdown-item:active{
+    background-color: #ff5733; 
+  }

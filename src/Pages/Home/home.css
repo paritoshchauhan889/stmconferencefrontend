@@ -1,0 +1,9 @@
+
+.homedflex{
+    display: flex;
+}
+@media only screen and (max-width: 767px) {
+    .homedflex {
+      display: block;
+    }
+  }

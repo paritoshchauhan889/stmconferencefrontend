@@ -1,0 +1,150 @@
+
+.banner-img{
+  background: url('https://res.cloudinary.com/de7mwtft7/image/upload/v1698829360/vbgmxd9tl6xydqfcf5xl.jpg')no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.banner-img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+}
+.center .sub_title{
+  color: #fff;
+  font-size: 20px;
+  width: 800px;
+  margin:auto;
+  font-weight: 600;
+}
+.center .btns{
+  margin-top: 20px;
+}
+.center .btns button{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.center .btns button:first-child{
+  color: #fff;
+  background: none;
+}
+.btns button:first-child:hover{
+  background: white;
+  color: black;
+}
+.center .btns button:last-child{
+  background: white;
+  color: black;
+}
+
+
+.banner-content {
+    width: 900px;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    color: #fff;
+    text-align: justify;
+    z-index: 3;
+}
+
+.banner-content p {
+    font-size: 20px;
+}
+
+.banner-content h1 {
+    text-align: center;
+    font-size: 85px;
+    line-height: 1.1;
+}
+
+.middle-line {
+    height: 200px;
+    width: 2px;
+    background: #fff;
+    margin: 40px auto;
+}
+.banner-content button {
+    display: block;
+    font-size: 20px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    margin: auto;
+    margin-top: 50px;
+    padding: 16px 30px;
+    cursor: pointer;
+}
+
+/* Media query for smaller screens, adjust as needed */
+@media screen and (max-width: 768px) {
+   
+  
+    .center .title {
+      font-size: 40px;
+    }
+  
+    .center .sub_title {
+      font-size: 36px;
+    }
+  
+    .center .btns button {
+      height: 45px;
+      width: 140px;
+      font-size: 18px;
+    }
+    .banner-content {
+        width: auto !important;
+       
+    }
+
+    .banner-content h1 {
+        font-size: 50px;
+    }
+
+ 
+
+    .banner-content button {
+        margin-top: 50px;
+        cursor: pointer;
+
+    }
+
+    .banner-content p {
+        text-align: center;
+       
+    }
+ .middle-line{
+     display: none;
+    }
+  }
+  

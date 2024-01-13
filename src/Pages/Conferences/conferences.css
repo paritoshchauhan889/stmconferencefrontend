@@ -1,0 +1,17 @@
+    @media only screen and (max-width: 600px) {
+  .top {
+    display: block !important;
+  }
+  .top .img {
+    text-align: center;
+  }
+  .right{
+    display: initial !important;
+  }
+
+}
+
+
+.col-md-8{
+  margin: auto;
+}

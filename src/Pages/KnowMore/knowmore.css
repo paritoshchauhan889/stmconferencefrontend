@@ -1,0 +1,89 @@
+.know-card {
+    max-width: 300px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.col-md-4{
+    width: 24.333333% ;
+}
+.know-card img {
+    transition: all 0.25s linear;
+}
+
+.know-card .profile-content {
+    position: relative;
+    padding: 15px;
+    color: #1f507b;
+    background-color: #FFF;
+}
+.profile-content h4{
+    font-weight: 900;
+}
+.know-card .profile-name {
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -70px;
+    color: #FFF;
+    font-size: 17px;
+}
+
+.know-card .profile-name p {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+
+.know-card .profile-description {
+    color: #180404;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.know-card .profile-overview {
+    padding: 15px 0px;
+}
+
+.know-card .profile-overview p {
+    font-size: 10px;
+    font-weight: 600;
+    color: #777;
+}
+
+.know-card .profile-overview h4 {
+    color: #273751;
+    font-weight: bold;
+}
+
+.know-card .profile-content::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    top: -10px;
+    left: 0px;
+    right: 0px;
+    background-color: #FFF;
+    z-index: 0;
+    transform: skewY(3deg);
+}
+
+.know-card:hover img {
+    transform: rotate(5deg) scale(1.1, 1.1);
+    filter: brightness(110%);
+}
+@media only screen and (max-width: 600px) {
+    .know-home-card{
+      display: block !important;
+    }
+.col-md-4{
+    width: fit-content;
+}
+  }

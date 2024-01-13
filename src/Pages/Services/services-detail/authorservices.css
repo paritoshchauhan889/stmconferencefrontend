@@ -1,0 +1,29 @@
+.custom-card {
+    align-items: center;
+  }
+
+  .top-row .card {
+    
+    border: 2px solid #3498db;
+    margin-bottom: 10px; 
+  }
+
+  .bottom-row .card {
+    border: 2px solid #e74c3c;
+    margin-top: 10px; 
+  }
+  .row-prc{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+  }
+  .col-md-4:hover img {
+    transform: scale(1.2);
+  }
+  @media (max-width: 768px) {
+    .row-prc {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  }

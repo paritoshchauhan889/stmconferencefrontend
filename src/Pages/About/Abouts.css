@@ -1,0 +1,175 @@
+
+
+
+/* 
+.about-container {
+    text-align: center;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  background-attachment: fixed;
+  }
+  
+.about-content h1 {
+font-weight: 700;
+font-size: 3rem;
+z-index: 1;
+color: wheat;
+
+}
+
+.about-card p {
+line-height: 1.5;
+padding: 1em;
+z-index: 1;
+color: black;
+
+}
+
+
+.second {
+background-image:url('../../api/Assets/img/aboutbg.jpg');
+background-attachment: fixed;
+background-position: center;
+background-size: contain;
+height: 1200px;
+}
+
+.about-card h3 {
+font-weight: 700;
+font-size: 1.6rem;
+margin-top: 1em;
+}
+
+.about-card a {
+margin-bottom: 2em;
+}
+
+.about-card-item {
+display: flex;
+max-width: 320px;
+background-color: white;;
+flex-direction: column;
+align-items: center;
+border-radius: .5em;
+-webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+-moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+
+.about-img {
+width: 90%;
+height: 200px;
+background-color: lightgrey;
+background-size: cover;
+background-position: center;
+margin-top: 20px;
+border-radius: .3em;;
+}
+
+
+.second {
+flex-direction: row;
+gap: 1.6em;
+}
+  
+
+  .about-card > a {
+    margin-bottom: 2em;
+  }
+  
+  .about-card-item {
+    display: flex;
+    max-width: 320px;
+    background-color: white;;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .5em;
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  }
+  
+  .about-img {
+    width: 90%;
+    height: 200px;
+    background-color: lightgrey;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: .3em;;
+  }
+  
+  .img-first {
+    background-image: url('../../api/Assets/img/about1.jpeg');
+  }
+  
+  .img-second {
+    background-image: url('../../api/Assets/img/about2.webp');
+  }
+  
+  .img-third {
+    background-image: url('../../api/Assets/img/about3.webp');
+  }
+  
+
+.about-main {
+height: 100vh;
+position: relative;
+}
+video {
+object-fit: cover;
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: 1;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+z-index: 2;
+background: rgba(0,0,0,0.6);
+}
+
+.about-content {
+width: 600px;
+margin: 0 auto;
+position: relative;
+top: 150px;
+color: #fff;
+z-index: 3;
+}
+
+.about-content h1 {
+font-family: Playfair Display, serif;
+text-align: center;
+text-transform: uppercase;
+font-size: 85px;
+line-height: 1.1;
+}
+
+.middle-line {
+height: 200px;
+width: 2px;
+margin: 40px auto;
+}
+
+.about-content button {
+display: block;
+font-size: 20px;
+border: 1px solid #f1f1f1;
+border-radius: 5px;
+background: transparent;
+color: #fff;
+margin: auto;
+padding: 16px 30px;
+cursor: pointer;
+} */
